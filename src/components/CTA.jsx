@@ -9,7 +9,7 @@ export default function CTA() {
           Ready to finish your thesis with confidence?
         </h2>
         <p className="text-white/70 text-lg mb-9 max-w-2xl mx-auto">
-          Book a free 15-minute consultation today. No commitment — just a honest
+          Book a free consultation today. Have a
           conversation about what your project needs.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">

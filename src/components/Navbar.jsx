@@ -1,7 +1,7 @@
 import { FileText, MessageCircle } from 'lucide-react'
 import { WHATSAPP_URL } from '../constants'
 
-const navItems = ['Services', 'Testimonials', 'FAQ']
+const navItems = ['Services','How it works', 'Testimonials', 'FAQ']
 
 export default function Navbar() {
   return (
@@ -20,7 +20,7 @@ export default function Navbar() {
           {navItems.map((item) => (
             <a
               key={item}
-              href={`#${item.toLowerCase().replace(' ', '-')}`}
+              href={`#${item.toLowerCase().replace(/ /g, '-')}`}
               className="hover:text-navy-950 transition-colors"
             >
               {item}
